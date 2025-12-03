@@ -1,6 +1,6 @@
 {
   "name": "highlight-simple",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Highlights occurrences of the selected text",
   "main": "./lib/main",
   "license": "MIT",
