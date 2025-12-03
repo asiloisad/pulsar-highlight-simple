@@ -1,0 +1,29 @@
+{
+  "name": "highlight-simple",
+  "version": "0.0.0",
+  "description": "Highlights occurrences of the selected text",
+  "main": "./lib/main",
+  "license": "MIT",
+  "keywords": [
+    "highlight",
+    "selection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asiloisad/pulsar-highlight-simple"
+  },
+  "bugs": {
+    "url": "https://github.com/asiloisad/pulsar-highlight-simple/issues"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "providedServices": {
+    "highlightSimple": {
+      "description": "Exposes Highlight Simple Events",
+      "versions": {
+        "1.0.0": "provideHighlightSimple"
+      }
+    }
+  }
+}
