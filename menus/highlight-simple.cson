@@ -1,0 +1,13 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Highlight Simple'
+        submenu: [
+          { label: 'Toggle', command: 'highlight-simple:toggle' }
+        ]
+      }
+    ]
+  }
+]
